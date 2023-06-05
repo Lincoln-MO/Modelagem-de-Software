@@ -393,7 +393,7 @@ Nesta seção, serão apresentados os tipos de testes escolhidos para cada itera
 
 Esses são apenas alguns exemplos de tipos de teste que podem ser aplicados em um Software de Banco Digital. Conforme o projeto avance, novos tipos de teste podem ser adicionados ou adaptados de acordo com os requisitos específicos e a evolução do software. É importante adaptar os critérios de completude sugeridos para cada tipo de teste de acordo com as características e necessidades do projeto em questão.
 
-### 3.1 - Métodos da Classe 
+### ## 3.1 - Métodos da Classe
 
 Para teste de funcionalidade.
 Aqui deve-se verificar se cada classe retorna o esperado.
@@ -406,7 +406,7 @@ Se possível usar teste automatizado.
             Objetivo
         </th>
         <th colspan="4">
-            descreva aqui o objetivo
+            Verificar se cada classe retorna o resultado esperado.
         </th>
     </tr>
     <tr>
@@ -453,7 +453,7 @@ Se possível usar teste automatizado.
             Responsável(is)
         </th>
         <th colspan="4">
-            Programador(es) ou equipe de testes
+            Lincoln Martins de Oliveira
         </th>
     </tr>
 </table>
@@ -472,7 +472,7 @@ Se possível usar teste automatizado.
             Objetivo
         </th>
         <th colspan="4">
-            Verificar se dados são mantidos após súbito desligamento do programa .
+            Verificar se os dados são mantidos após súbito desligamento do programa.
         </th>
     </tr>
     <tr>
@@ -519,7 +519,7 @@ Se possível usar teste automatizado.
             Responsável(is)
         </th>
         <th colspan="4">
-            Programador(es) ou equipe de testes
+            Lincoln Martins de Oliveira
         </th>
     </tr>
 </table>
@@ -538,7 +538,7 @@ Se possível usar teste automatizado.
             Objetivo
         </th>
         <th colspan="4">
-            descreva aqui o objetivo
+            Verificar se as classes e métodos se integram corretamente para realizar uma sequência de ações do programa.
         </th>
     </tr>
     <tr>
@@ -585,7 +585,7 @@ Se possível usar teste automatizado.
             Responsável(is)
         </th>
         <th colspan="4">
-            Programador(es) ou equipe de testes
+            Lincoln Martins de Oliveira
         </th>
     </tr>
 </table>
@@ -594,7 +594,7 @@ Se possível usar teste automatizado.
 ### 3.4 - Tempo de Resposta
 
 Para teste de funcionalidade.
-Aqui deve-se verificar se o tempo de respostas das ações do programa são consideradas aceitáveis.
+Aqui deve-se verificar se o tempo de resposta das ações do programa é considerado aceitável.
 Se possível usar teste automatizado.
 
 <br/>
@@ -604,7 +604,7 @@ Se possível usar teste automatizado.
             Objetivo
         </th>
         <th colspan="4">
-            descreva aqui o objetivo
+            Verificar se o tempo de resposta das ações do programa é aceitável.
         </th>
     </tr>
     <tr>
@@ -651,7 +651,7 @@ Se possível usar teste automatizado.
             Responsável(is)
         </th>
         <th colspan="4">
-            Programador(es) ou equipe de testes
+            Lincoln Martins de Oliveira
         </th>
     </tr>
 </table>
@@ -659,7 +659,7 @@ Se possível usar teste automatizado.
 
 ### 3.5 - Animação
 
-Para teste de funcionalidade (para games, principalmente, mas não somente).
+Para teste de funcionalidade (para jogos, principalmente, mas não somente).
 Aqui deve-se verificar se as animações existentes no programa são disparadas quando devem e se seguem uma sequência lógica.
 Se possível usar teste automatizado.
 
@@ -670,7 +670,7 @@ Se possível usar teste automatizado.
             Objetivo
         </th>
         <th colspan="4">
-            descreva aqui o objetivo
+            Verificar se as animações são acionadas corretamente e se seguem uma sequência lógica no programa.
         </th>
     </tr>
     <tr>
@@ -717,13 +717,78 @@ Se possível usar teste automatizado.
             Responsável(is)
         </th>
         <th colspan="4">
-            Programador(es) ou equipe de testes
+            Lincoln Martins de Oliveira
         </th>
     </tr>
 </table>
 <br/>
 
 ### 3.6 - Efeitos Sonoros
+
+Para teste de funcionalidade.
+Aqui deve-se verificar se os efeitos sonoros do programa são acionados corretamente nos eventos adequados.
+Se possível usar teste automatizado.
+
+<br/>
+<table>
+    <tr>
+        <th>
+            Objetivo
+        </th>
+        <th colspan="4">
+            Verificar se os efeitos sonoros são acionados corretamente nos eventos adequados do programa.
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Técnica:
+        </th>
+        <th colspan="2">
+            ( ) manual
+        </th>
+        <th colspan="2">
+            ( ) automática
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Estágio do teste
+        </th>
+        <th>
+            Integração ( )
+        </th>
+        <th>
+            Sistema ( )
+        </th>
+        <th>
+            Unidade ( )
+        </th>
+        <th>
+            Aceitação ( )
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Abordagem do teste
+        </th>
+        <th colspan="2">
+            Caixa branca ( )
+        </th>
+        <th colspan="2">
+            Caixa preta ( )
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Responsável(is)
+        </th>
+        <th colspan="4">
+            Lincoln Martins de Oliveira
+        </th>
+    </tr>
+</table>
+<br/>
+
 
 
 ## 4 - Recursos
