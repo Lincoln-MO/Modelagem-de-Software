@@ -331,12 +331,12 @@ Identificador do requisito   | Nome do requisito
 
 Nesta seção, serão apresentados os tipos de testes escolhidos para cada iteração do projeto do Software de Banco Digital. Inicialmente, serão listados os tipos de testes que serão utilizados na próxima iteração, e também serão registrados eventuais tipos de teste que se espera utilizar nas demais iterações. Cada tipo de teste será descrito brevemente, indicando sua relevância em relação aos requisitos, tipo da aplicação e recursos disponíveis.
 
-## Teste de interface de usuário:
+- Teste de interface de usuário:
 
-- Descrição: Esse tipo de teste verifica se a interface do usuário está funcionando corretamente e atendendo aos requisitos estabelecidos. Envolve testar a usabilidade, navegabilidade, layout, design e interação com o usuário.
-- Critérios de completude sugeridos: Todos os elementos da interface devem ser testados, incluindo botões, campos de entrada, menus e links. Verificar se a interface é intuitiva, responsiva e se as informações são apresentadas de forma clara e adequada.
+    - Descrição: Esse tipo de teste verifica se a interface do usuário está funcionando corretamente e atendendo aos requisitos estabelecidos. Envolve testar a usabilidade, navegabilidade, layout, design e interação com o usuário.
+    - Critérios de completude sugeridos: Todos os elementos da interface devem ser testados, incluindo botões, campos de entrada, menus e links. Verificar se a interface é intuitiva, responsiva e se as informações são apresentadas de forma clara e adequada.
 
-## Teste de performance:
+##  Teste de performance:
 
 - Descrição: Esse tipo de teste avalia o desempenho do software em diferentes condições e cargas de trabalho. O objetivo é identificar possíveis gargalos, lentidão ou problemas de resposta, garantindo que o sistema funcione de forma eficiente e atenda aos requisitos de desempenho.
 - Critérios de completude sugeridos: Realizar testes de carga e stress para verificar como o sistema se comporta em situações de alto tráfego. Analisar os tempos de resposta, a capacidade de processamento, o consumo de recursos e a estabilidade do sistema em diferentes cenários.
