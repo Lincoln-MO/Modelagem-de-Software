@@ -393,7 +393,31 @@ Nesta seção, serão apresentados os tipos de testes escolhidos para cada itera
 
 Esses são apenas alguns exemplos de tipos de teste que podem ser aplicados em um Software de Banco Digital. Conforme o projeto avance, novos tipos de teste podem ser adicionados ou adaptados de acordo com os requisitos específicos e a evolução do software. É importante adaptar os critérios de completude sugeridos para cada tipo de teste de acordo com as características e necessidades do projeto em questão.
 
-### ## 3.1 - Métodos da Classe
+## Termos Relacionados aos Testes de Software
+
+- Técnica de Teste:
+A técnica de teste se refere ao método ou abordagem usada para projetar e executar testes em um software. Existem duas principais categorias de técnicas de teste: manual e automática.
+    - Teste Manual: Nessa abordagem, os testes são realizados por testadores humanos, que executam casos de teste, verificam o comportamento do software e registram os resultados manualmente. É uma abordagem flexível, permitindo a detecção de problemas sutis e a adaptação a diferentes cenários de teste.
+
+    - Teste Automático: Nessa abordagem, os testes são executados por meio de ferramentas de automação de teste, que executam casos de teste predefinidos sem a necessidade de intervenção humana. É uma abordagem eficiente para testes repetitivos, execução em larga escala e testes de desempenho. No entanto, pode ser limitada na detecção de problemas complexos e sutis.
+
+- Estágio do Teste:
+O estágio do teste se refere ao nível ou fase em que os testes são executados no ciclo de vida do desenvolvimento de software. Existem vários estágios de teste, incluindo:
+    - Teste de Unidade: Nesse estágio, as unidades individuais de código são testadas isoladamente para garantir que funcionem corretamente. Geralmente, é realizado pelos próprios desenvolvedores.
+
+    - Teste de Integração: Nesse estágio, as unidades testadas individualmente são combinadas e testadas em conjunto para verificar a interoperabilidade e a comunicação correta entre elas.
+
+    - Teste de Sistema: Nesse estágio, o sistema completo é testado como um todo para verificar se atende aos requisitos e especificações. O objetivo é garantir que todas as partes do sistema funcionem corretamente em conjunto.
+
+    - Teste de Aceitação: Nesse estágio, os testes são realizados para validar o sistema em relação aos critérios de aceitação definidos pelo cliente ou usuário final. O objetivo é garantir que o sistema esteja pronto para ser entregue e usado pelo cliente.
+
+- Abordagem do Teste:
+A abordagem do teste refere-se à perspectiva adotada durante o processo de teste. Duas abordagens comuns são:
+    - Teste de Caixa Preta: Nessa abordagem, o testador avalia o sistema sem conhecimento detalhado de sua estrutura interna. O foco está nas entradas, saídas e comportamento funcional do software, sem considerar a implementação subjacente.
+
+    - Teste de Caixa Branca: Nessa abordagem, o testador tem conhecimento detalhado da estrutura interna, do código-fonte e da lógica do sistema. O objetivo é testar a lógica interna do software, garantindo que todos os caminhos e instruções sejam exercitados.
+
+### 3.1 - Métodos da Classe
 
 Para teste de funcionalidade.
 Aqui deve-se verificar se cada classe retorna o esperado.
@@ -612,10 +636,10 @@ Se possível usar teste automatizado.
             Técnica:
         </th>
         <th colspan="2">
-            ( ) manual
+            (x) manual
         </th>
         <th colspan="2">
-            ( ) automática
+            (x) automática
         </th>
     </tr>
     <tr>
@@ -623,13 +647,13 @@ Se possível usar teste automatizado.
             Estágio do teste
         </th>
         <th>
-            Integração ( )
+            Integração (x)
         </th>
         <th>
-            Sistema ( )
+            Sistema (x)
         </th>
         <th>
-            Unidade ( )
+            Unidade (x)
         </th>
         <th>
             Aceitação ( )
@@ -640,10 +664,10 @@ Se possível usar teste automatizado.
             Abordagem do teste
         </th>
         <th colspan="2">
-            Caixa branca ( )
+            Caixa branca (x)
         </th>
         <th colspan="2">
-            Caixa preta ( )
+            Caixa preta (x)
         </th>
     </tr>
     <tr>
@@ -678,10 +702,10 @@ Se possível usar teste automatizado.
             Técnica:
         </th>
         <th colspan="2">
-            ( ) manual
+            (x) manual
         </th>
         <th colspan="2">
-            ( ) automática
+            (x) automática
         </th>
     </tr>
     <tr>
@@ -689,13 +713,13 @@ Se possível usar teste automatizado.
             Estágio do teste
         </th>
         <th>
-            Integração ( )
+            Integração (x)
         </th>
         <th>
-            Sistema ( )
+            Sistema (x)
         </th>
         <th>
-            Unidade ( )
+            Unidade (x)
         </th>
         <th>
             Aceitação ( )
@@ -706,10 +730,10 @@ Se possível usar teste automatizado.
             Abordagem do teste
         </th>
         <th colspan="2">
-            Caixa branca ( )
+            Caixa branca (x)
         </th>
         <th colspan="2">
-            Caixa preta ( )
+            Caixa preta (x)
         </th>
     </tr>
     <tr>
@@ -744,10 +768,74 @@ Se possível usar teste automatizado.
             Técnica:
         </th>
         <th colspan="2">
+            (x) manual
+        </th>
+        <th colspan="2">
+            (x) automática
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Estágio do teste
+        </th>
+        <th>
+            Integração (x)
+        </th>
+        <th>
+            Sistema (x)
+        </th>
+        <th>
+            Unidade (x)
+        </th>
+        <th>
+            Aceitação ( )
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Abordagem do teste
+        </th>
+        <th colspan="2">
+            Caixa branca (x)
+        </th>
+        <th colspan="2">
+            Caixa preta (x)
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Responsável(is)
+        </th>
+        <th colspan="4">
+            Lincoln Martins de Oliveira
+        </th>
+    </tr>
+</table>
+<br/>
+
+###  3.7 - Usabilidade
+Para teste de usabilidade.
+Aqui deve-se verificar se a interface do programa é intuitiva e fácil de usar, considerando a experiência do usuário. Pode-se realizar testes com usuários reais para obter feedbacks. Também pode-se utilizar ferramentas de análise de usabilidade.
+
+<br/>
+<table>
+    <tr>
+        <th>
+            Objetivo
+        </th>
+        <th colspan="4">
+            Verificar se a interface do programa é intuitiva e fácil de usar, considerando a experiência do usuário.
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Técnica:
+        </th>
+        <th colspan="2">
             ( ) manual
         </th>
         <th colspan="2">
-            ( ) automática
+            (x) automática
         </th>
     </tr>
     <tr>
@@ -764,7 +852,7 @@ Se possível usar teste automatizado.
             Unidade ( )
         </th>
         <th>
-            Aceitação ( )
+            Aceitação (x)
         </th>
     </tr>
     <tr>
@@ -775,7 +863,7 @@ Se possível usar teste automatizado.
             Caixa branca ( )
         </th>
         <th colspan="2">
-            Caixa preta ( )
+            Caixa preta (x)
         </th>
     </tr>
     <tr>
