@@ -336,60 +336,60 @@ Nesta seção, serão apresentados os tipos de testes escolhidos para cada itera
     - Descrição: Esse tipo de teste verifica se a interface do usuário está funcionando corretamente e atendendo aos requisitos estabelecidos. Envolve testar a usabilidade, navegabilidade, layout, design e interação com o usuário.
     - Critérios de completude sugeridos: Todos os elementos da interface devem ser testados, incluindo botões, campos de entrada, menus e links. Verificar se a interface é intuitiva, responsiva e se as informações são apresentadas de forma clara e adequada.
 
-##  Teste de performance:
+- Teste de performance:
 
-- Descrição: Esse tipo de teste avalia o desempenho do software em diferentes condições e cargas de trabalho. O objetivo é identificar possíveis gargalos, lentidão ou problemas de resposta, garantindo que o sistema funcione de forma eficiente e atenda aos requisitos de desempenho.
-- Critérios de completude sugeridos: Realizar testes de carga e stress para verificar como o sistema se comporta em situações de alto tráfego. Analisar os tempos de resposta, a capacidade de processamento, o consumo de recursos e a estabilidade do sistema em diferentes cenários.
+    - Descrição: Esse tipo de teste avalia o desempenho do software em diferentes condições e cargas de trabalho. O objetivo é identificar possíveis gargalos, lentidão ou problemas de resposta, garantindo que o sistema funcione de forma eficiente e atenda aos requisitos de desempenho.
+    - Critérios de completude sugeridos: Realizar testes de carga e stress para verificar como o sistema se comporta em situações de alto tráfego. Analisar os tempos de resposta, a capacidade de processamento, o consumo de recursos e a estabilidade do sistema em diferentes cenários.
 
-## Teste de carga:
+- Teste de carga:
 
-- Descrição: Esse tipo de teste verifica o comportamento do sistema sob uma carga de trabalho esperada, simulando a quantidade de usuários e transações que o sistema deverá suportar no ambiente de produção.
-- Critérios de completude sugeridos: Estabelecer métricas de desempenho aceitáveis, como tempos de resposta, throughput e utilização de recursos. Verificar se o sistema se mantém estável e se não há degradação significativa do desempenho durante períodos prolongados de carga.
+    - Descrição: Esse tipo de teste verifica o comportamento do sistema sob uma carga de trabalho esperada, simulando a quantidade de usuários e transações que o sistema deverá suportar no ambiente de produção.
+    - Critérios de completude sugeridos: Estabelecer métricas de desempenho aceitáveis, como tempos de resposta, throughput e utilização de recursos. Verificar se o sistema se mantém estável e se não há degradação significativa do desempenho durante períodos prolongados de carga.
 
-## Teste de stress:
+- Teste de stress:
 
-- Descrição: Esse tipo de teste avalia os limites do sistema, submetendo-o a condições extremas de carga, como alta concorrência, volume de dados elevado, picos de tráfego repentino, entre outros.
-- Critérios de completude sugeridos: Identificar os pontos de falha do sistema, como vazamentos de memória, travamentos ou erros críticos. Verificar se o sistema se recupera corretamente após situações de estresse e se mantém a integridade dos dados.
+    - Descrição: Esse tipo de teste avalia os limites do sistema, submetendo-o a condições extremas de carga, como alta concorrência, volume de dados elevado, picos de tráfego repentino, entre outros.
+    - Critérios de completude sugeridos: Identificar os pontos de falha do sistema, como vazamentos de memória, travamentos ou erros críticos. Verificar se o sistema se recupera corretamente após situações de estresse e se mantém a integridade dos dados.
 
-## Teste de segurança e controle de acesso:
+- Teste de segurança e controle de acesso:
 
-- Descrição: Esse tipo de teste avalia a segurança do sistema, verificando se os mecanismos de autenticação, autorização e controle de acesso estão eficientes e atendem às políticas de segurança estabelecidas.
-- Critérios de completude sugeridos: Verificar se não há brechas de segurança, como vulnerabilidades conhecidas ou possibilidade de acesso não autorizado a funcionalidades ou informações sensíveis. Testar diferentes cenários de autenticação e autorização para garantir que o sistema mantenha a integridade e a confidencialidade dos dados.
+    - Descrição: Esse tipo de teste avalia a segurança do sistema, verificando se os mecanismos de autenticação, autorização e controle de acesso estão eficientes e atendem às políticas de segurança estabelecidas.
+    - Critérios de completude sugeridos: Verificar se não há brechas de segurança, como vulnerabilidades conhecidas ou possibilidade de acesso não autorizado a funcionalidades ou informações sensíveis. Testar diferentes cenários de autenticação e autorização para garantir que o sistema mantenha a integridade e a confidencialidade dos dados.
 
-## Teste de instalação:
+- Teste de instalação:
 
-- Descrição: Esse tipo de teste verifica a instalação e configuração do software de Banco Digital em diferentes ambientes, como sistemas operacionais, servidores e dispositivos móveis.
-- Critérios de completude sugeridos: Verificar se o processo de instalação é simples, intuitivo e bem documentado. Testar a compatibilidade do software com diferentes plataformas e configurar corretamente os pré-requisitos e as dependências necessárias para a instalação.
+    - Descrição: Esse tipo de teste verifica a instalação e configuração do software de Banco Digital em diferentes ambientes, como sistemas operacionais, servidores e dispositivos móveis.
+    - Critérios de completude sugeridos: Verificar se o processo de instalação é simples, intuitivo e bem documentado. Testar a compatibilidade do software com diferentes plataformas e configurar corretamente os pré-requisitos e as dependências necessárias para a instalação.
 
-## Teste de usabilidade:
+- Teste de usabilidade:
 
-- Descrição: Esse tipo de teste visa avaliar a facilidade de uso e a experiência do usuário ao interagir com o software. O foco está na identificação de problemas de usabilidade, fluxos confusos e dificuldades de navegação.
-- Critérios de completude sugeridos: Realizar testes com usuários reais, observando sua interação com o software. Coletar feedback sobre a intuitividade da interface, clareza das informações, eficiência das ações e facilidade de aprendizado. Realizar iterações de design com base nos resultados obtidos.
+    - Descrição: Esse tipo de teste visa avaliar a facilidade de uso e a experiência do usuário ao interagir com o software. O foco está na identificação de problemas de usabilidade, fluxos confusos e dificuldades de navegação.
+    - Critérios de completude sugeridos: Realizar testes com usuários reais, observando sua interação com o software. Coletar feedback sobre a intuitividade da interface, clareza das informações, eficiência das ações e facilidade de aprendizado. Realizar iterações de design com base nos resultados obtidos.
 
-## Teste de compatibilidade:
+- Teste de compatibilidade:
 
-- Descrição: Esse tipo de teste verifica se o software é compatível com diferentes sistemas operacionais, navegadores, dispositivos e versões. O objetivo é garantir que o aplicativo funcione corretamente em diferentes ambientes.
-- Critérios de completude sugeridos: Testar o software em uma variedade de combinações de sistemas operacionais (Windows, macOS, Linux), navegadores (Chrome, Firefox, Safari, Edge) e dispositivos (desktops, tablets, smartphones). Verificar se a interface se adapta adequadamente e se todas as funcionalidades são suportadas.
+    - Descrição: Esse tipo de teste verifica se o software é compatível com diferentes sistemas operacionais, navegadores, dispositivos e versões. O objetivo é garantir que o aplicativo funcione corretamente em diferentes ambientes.
+    - Critérios de completude sugeridos: Testar o software em uma variedade de combinações de sistemas operacionais (Windows, macOS, Linux), navegadores (Chrome, Firefox, Safari, Edge) e dispositivos (desktops, tablets, smartphones). Verificar se a interface se adapta adequadamente e se todas as funcionalidades são suportadas.
 
-## Teste de regressão:
+- Teste de regressão:
 
-- Descrição: Esse tipo de teste visa garantir que as alterações realizadas em novas versões do software não introduzam regressões, ou seja, não causem problemas em funcionalidades que já estavam funcionando corretamente.
-- Critérios de completude sugeridos: Criar uma suíte de testes que cubra as principais funcionalidades do software. Executar esses testes a cada nova versão, verificando se todas as funcionalidades previamente testadas continuam funcionando corretamente.
+    - Descrição: Esse tipo de teste visa garantir que as alterações realizadas em novas versões do software não introduzam regressões, ou seja, não causem problemas em funcionalidades que já estavam funcionando corretamente.
+    - Critérios de completude sugeridos: Criar uma suíte de testes que cubra as principais funcionalidades do software. Executar esses testes a cada nova versão, verificando se todas as funcionalidades previamente testadas continuam funcionando corretamente.
 
-## Teste de localização:
+- Teste de localização:
 
-- Descrição: Esse tipo de teste verifica se o software está adaptado corretamente para diferentes localidades, idiomas e culturas. Envolve verificar a tradução adequada, a formatação correta de datas, moedas e números, e a conformidade com requisitos legais e regulatórios em diferentes regiões.
-- Critérios de completude sugeridos: Testar o software em diferentes idiomas e regiões geográficas, verificando a exatidão da tradução, a formatação dos elementos de interface e a conformidade com leis e regulamentos locais.
+    - Descrição: Esse tipo de teste verifica se o software está adaptado corretamente para diferentes localidades, idiomas e culturas. Envolve verificar a tradução adequada, a formatação correta de datas, moedas e números, e a conformidade com requisitos legais e regulatórios em diferentes regiões.
+    - Critérios de completude sugeridos: Testar o software em diferentes idiomas e regiões geográficas, verificando a exatidão da tradução, a formatação dos elementos de interface e a conformidade com leis e regulamentos locais.
 
-## Teste de recuperação de desastres:
+- Teste de recuperação de desastres:
 
-- Descrição: Esse tipo de teste avalia a capacidade do sistema de se recuperar de falhas graves, como quedas de energia, falhas de hardware ou desastres naturais. O objetivo é garantir que o software possua mecanismos adequados de backup, replicação e recuperação de dados.
-- Critérios de completude sugeridos: Simular situações de desastres ou falhas graves, como desligar abruptamente o servidor principal. Verificar se o sistema consegue recuperar os dados, migrar para um servidor secundário e retomar as operações sem perda significativa de dados ou tempo de inatividade.
+    - Descrição: Esse tipo de teste avalia a capacidade do sistema de se recuperar de falhas graves, como quedas de energia, falhas de hardware ou desastres naturais. O objetivo é garantir que o software possua mecanismos adequados de backup, replicação e recuperação de dados.
+    - Critérios de completude sugeridos: Simular situações de desastres ou falhas graves, como desligar abruptamente o servidor principal. Verificar se o sistema consegue recuperar os dados, migrar para um servidor secundário e retomar as operações sem perda significativa de dados ou tempo de inatividade.
 
-## Teste de integração:
+- Teste de integração:
 
-- Descrição: Esse tipo de teste avalia a integração entre os diferentes componentes do software de Banco Digital, como sistemas de autenticação, processamento de pagamentos, serviços externos (APIs), entre outros. O objetivo é garantir que esses componentes funcionem corretamente juntos.
-- Critérios de completude sugeridos: Identificar os principais componentes do software e definir casos de teste que verifiquem a integração entre eles. Testar diferentes fluxos de trabalho, desde o login até a execução de transações complexas, garantindo que todas as interações entre os componentes ocorram sem problemas.
+    - Descrição: Esse tipo de teste avalia a integração entre os diferentes componentes do software de Banco Digital, como sistemas de autenticação, processamento de pagamentos, serviços externos (APIs), entre outros. O objetivo é garantir que esses componentes funcionem corretamente juntos.
+    - Critérios de completude sugeridos: Identificar os principais componentes do software e definir casos de teste que verifiquem a integração entre eles. Testar diferentes fluxos de trabalho, desde o login até a execução de transações complexas, garantindo que todas as interações entre os componentes ocorram sem problemas.
 
 Esses são apenas alguns exemplos de tipos de teste que podem ser aplicados em um Software de Banco Digital. Conforme o projeto avance, novos tipos de teste podem ser adicionados ou adaptados de acordo com os requisitos específicos e a evolução do software. É importante adaptar os critérios de completude sugeridos para cada tipo de teste de acordo com as características e necessidades do projeto em questão.
 
