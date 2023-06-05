@@ -15,40 +15,40 @@
 
 Este documento tem como objetivo descrever os requisitos a serem testados, os tipos de testes definidos para cada iteração, os recursos de hardware e software a serem empregados e o cronograma dos testes ao longo do projeto. As seções referentes aos requisitos, recursos e cronograma têm como finalidade permitir ao gerente do projeto acompanhar a evolução dos testes.
 
-## 1.1 - Informações do Projeto e Componentes de Software:
+## 1.01 - Informações do Projeto e Componentes de Software:
 O software de Banco Digital em questão é uma plataforma de serviços bancários online que visa fornecer aos clientes uma experiência segura e conveniente para realizar transações financeiras, gerenciar contas e acessar serviços bancários de forma digital. O sistema é composto por vários componentes, incluindo módulos de autenticação, gerenciamento de contas, transferências de fundos, pagamentos, consultas de saldo, entre outros.
 
-## 1.2 - Requisitos a Testar:
+## 1.02 - Requisitos a Testar:
 Será realizada uma análise detalhada dos requisitos do software de Banco Digital para identificar todos os aspectos que devem ser testados. Os requisitos podem ser categorizados em requisitos funcionais e não funcionais. Alguns exemplos de requisitos a serem testados podem incluir:
 
 - Funcionalidades do sistema, como registro de conta, transferências de fundos, pagamento de contas, solicitação de empréstimos, etc.
 - Requisitos de desempenho, como tempos de resposta aceitáveis, escalabilidade e capacidade de lidar com grandes volumes de transações simultâneas.
 - Requisitos de segurança, incluindo autenticação, criptografia de dados, prevenção de acesso não autorizado, etc.
 - Requisitos de usabilidade, como a interface do usuário intuitiva, consistência na navegação, acessibilidade para pessoas com deficiência, etc.
-## 1.3 - Estratégias de Teste:
+## 1.03 - Estratégias de Teste:
 Com base nos requisitos identificados, serão recomendadas estratégias de teste a serem empregadas. Isso pode incluir uma combinação de testes de unidade, testes de integração, testes de sistema, testes de aceitação e outros tipos de testes relevantes para garantir a cobertura adequada dos requisitos. Cada estratégia de teste será descrita em termos de seus objetivos, abordagem, escopo e critérios de sucesso.
 - Testes de Unidade: Serão realizados para verificar a funcionalidade correta dos componentes individuais do software, como funções específicas de autenticação, operações de transferência de fundos, etc.
 - Testes de Integração: Serão conduzidos para verificar a integração adequada entre os vários componentes do sistema e garantir que as interfaces estejam funcionando corretamente.
 - Testes de Sistema: Serão executados para validar o sistema como um todo, incluindo a interação entre os diferentes módulos, o fluxo de dados correto e a conformidade com os requisitos especificados.
 - Testes de Aceitação: Serão realizados para verificar se o software atende aos critérios de aceitação definidos pelos stakeholders, como usuários finais, gerentes de negócios e reguladores.
-## 1.4 - Recursos Necessários e Estimativa de Esforços de Teste:
+## 1.04 - Recursos Necessários e Estimativa de Esforços de Teste:
 Para realizar os testes de forma eficiente, serão identificados os recursos necessários, tanto em termos de hardware quanto de software. Isso pode incluir servidores de teste, dispositivos móveis, sistemas operacionais, ferramentas de automação de teste, bancos de dados e outros recursos relevantes. Além disso, será fornecida uma estimativa dos esforços de teste necessários, incluindo a duração prevista para cada tipo de teste e a alocação de recursos humanos.
 - Hardware: Serão necessários servidores de teste para a execução dos testes, dispositivos móveis para testes em diferentes plataformas, bem como máquinas adicionais para testes de carga e desempenho.
 - Software: Será necessário um conjunto de ferramentas de teste adequadas, como frameworks de automação, ferramentas de registro de bugs e software de virtualização para configurar ambientes de teste.
 - Recursos Humanos: Uma equipe de testes será necessária para conduzir os testes. Isso pode incluir testadores, engenheiros de automação de testes, especialistas em segurança, entre outros.
-## 1.5 - Elementos Resultantes do Projeto de Testes:
+## 1.05 - Elementos Resultantes do Projeto de Testes:
 Como resultado do processo de planejamento de testes, diversos elementos serão produzidos. Isso inclui planos de teste detalhados para cada tipo de teste, cenários de teste, casos de teste, dados de teste, scripts de automação, relatórios de testes e outros artefatos relacionados ao processo de teste. Esses elementos serão documentados e organizados de forma a permitir uma execução sistemática e um acompanhamento eficaz dos resultados dos testes.
 
-## 1.6 - Ambiente de Testes:
+## 1.06 - Ambiente de Testes:
 Será necessário estabelecer um ambiente de testes adequado para conduzir os testes de forma eficiente e precisa. Isso envolve a criação de ambientes de desenvolvimento e teste separados, que possam refletir com precisão o ambiente de produção do software de Banco Digital. O ambiente de teste deve ser configurado com os mesmos componentes de hardware, software, redes e configurações de segurança para garantir a reprodução fiel das condições reais de uso.
 
-## 1.7 - Dados de Teste:
+## 1.07 - Dados de Teste:
 Serão necessários conjuntos de dados de teste realistas e representativos para cobrir os diferentes cenários e casos de uso do software de Banco Digital. Esses conjuntos de dados devem incluir uma variedade de dados de clientes, como informações pessoais, detalhes de conta, histórico de transações, entre outros. Além disso, serão criados dados de teste específicos para validar diferentes funcionalidades e requisitos, como dados para testar limites de valores, casos de exceção e situações de erro.
 
-## 1.8 - Estratégia de Defeitos e Gestão de Problemas:
+## 1.08 - Estratégia de Defeitos e Gestão de Problemas:
 Uma estratégia de gestão de defeitos e problemas deve ser estabelecida para rastrear, documentar e resolver quaisquer problemas encontrados durante os testes. Isso envolve a implementação de um sistema de registro de bugs, atribuição de prioridades e severidades aos defeitos, acompanhamento do status de resolução e comunicação eficaz entre os membros da equipe de teste, desenvolvimento e gerenciamento do projeto. O objetivo é garantir que todos os defeitos sejam adequadamente registrados e tratados, visando a sua resolução e prevenção em futuras versões do software.
 
-## 1.9 - Plano de Teste Iterativo:
+## 1.09 - Plano de Teste Iterativo:
 Considerando que os testes serão conduzidos em várias iterações, será elaborado um plano de teste detalhado para cada iteração. Cada plano de teste especificará os objetivos, escopo, atividades, cronograma e recursos alocados para aquela iteração específica. Além disso, serão estabelecidos critérios de entrada e saída para cada fase de teste, permitindo a transição adequada entre as iterações e fornecendo um roteiro claro para o progresso do teste.
 
 ## 1.10 - Cronograma de Teste:
@@ -60,19 +60,8 @@ Serão gerados relatórios de teste regulares para comunicar o status, os result
 ## 1.12 - Atividades de Encerramento:
 Ao final do ciclo de teste, serão realizadas atividades de encerramento para revisar o desempenho do teste, identificar áreas de melhoria e capturar lições aprendidas. Isso inclui a documentação de quaisquer problemas não resolvidos, atualização da documentação do sistema, arquivamento de artefatos de teste e preparação para a próxima fase do projeto, como o lançamento do software em produção.
 
-## - Programa a ser Testado:
+## Programa a ser Testado:
 O programa a ser testado é o software de Banco Digital, que abrange todos os módulos e funcionalidades mencionados anteriormente. O programa será submetido a um processo de teste rigoroso para garantir sua confiabilidade, segurança, desempenho e usabilidade. Os testes serão conduzidos em várias iterações, com cada iteração focada em um conjunto específico de requisitos e casos de teste. Essa abordagem iterativa permite a identificação precoce de problemas e a implementação de melhorias contínuas ao longo do projeto.
-
-Este documento descreve os requisitos a testar, os  tipos de testes definidos para cada iteração, os recursos de hardware e software a serem empregados e o cronograma dos testes ao longo do projeto. As seções referentes aos requisitos, recursos e cronograma servem para permitir ao gerente do projeto acompanhar a evolução dos testes.
-
-Com esse documento, você deve:
-- Identificar informações de projeto existentes e os componentes de software que devem ser testados.
-- Listar os Requisitos a testar.
-- Recomendar e descrever as estratégias de teste a serem empregadas.
-- Identificar os recursos necessários e prover uma estimativa dos esforços de teste.
-- Listar os elementos resultantes do projeto de testes.
-
-Também é possível apresentar aqui o programa que será testado.
 
 ## 2 - Requisitos a Testar
 
@@ -194,7 +183,6 @@ Identificador do caso de uso | Nome do caso de uso
 - [CDU022] CANCELAR CONTA:
 
     Este caso de uso permite que o funcionário cancele uma conta.
-
 
 ### Requisitos não-funcionais:
 
@@ -338,7 +326,6 @@ Identificador do requisito   | Nome do requisito
 - [NF027] Tolerância a falhas:
 
     O sistema deve ser tolerante a falhas, permitindo que ele continue funcionando mesmo quando ocorrerem falhas no hardware ou software.
-
 
 ## 3 - Tipos de teste
 
