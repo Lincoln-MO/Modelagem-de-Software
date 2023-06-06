@@ -1198,23 +1198,42 @@ Aqui deve-se verificar o desempenho do software em relação a tempo de resposta
 <br/>
 
 ## 4 - Recursos
+Esta seção deve descrever os recursos humanos, de ambiente de teste (hardware e software) e de ferramentas de automatização de testes necessários para a execução dos testes que devem ser descritos nas subseções que seguem.
 
-Esta seção deve descrever os recursos humanos, de ambiente de teste (hardware e software) e de ferramentas de automatização de testes necessários para execução dos testes que devem ser descritos nas subseções que seguem.
+## 4.1 - Ambiente de teste - Software e Hardware
+- Hardware:
+    - Servidor de aplicação com capacidade de processamento e memória adequados para suportar a carga esperada de usuários simultâneos.
+    - Máquinas cliente para simulação de acesso ao software de banco digital, com configurações representativas dos diferentes dispositivos que os usuários podem utilizar (por exemplo, computadores desktop, laptops, tablets, smartphones).
+    - Balanceadores de carga: caso o software de banco digital precise lidar com um grande número de usuários simultâneos, é recomendável ter balanceadores de carga para distribuir a carga entre vários servidores e garantir um desempenho adequado.
+    - Dispositivos móveis: para testar a compatibilidade e o desempenho do aplicativo do banco digital em dispositivos móveis, é importante ter acesso a uma variedade de smartphones e tablets com diferentes sistemas operacionais (Android, iOS) e versões.
+- Software:
+    - Sistema operacional: Windows 10, macOS Big Sur, Ubuntu 20.04 LTS (ou versões mais recentes).
+    - Navegadores: Google Chrome, Mozilla Firefox, Safari, Microsoft Edge (últimas versões estáveis).
+    - Servidor web: Apache, Nginx (últimas versões estáveis).
+    - Banco de dados: MySQL, PostgreSQL (últimas versões estáveis).
+    - Ferramentas de virtualização: para criar ambientes de teste isolados e reproduzíveis, pode ser útil utilizar ferramentas de virtualização como o VirtualBox ou o VMware para criar máquinas virtuais com diferentes configurações de sistema operacional e software.
+    - Ferramentas de automação de testes: além do Selenium WebDriver, outras ferramentas populares de automação de testes incluem o Appium (para testes automatizados em dispositivos móveis), o Robot Framework (para testes de aceitação e automação de testes de interface do usuário) e o Cypress (para testes de interface do usuário baseados em JavaScript).
+    - Sistemas de gerenciamento de banco de dados (SGBDs): dependendo do banco de dados utilizado pelo software de banco digital, pode ser necessário configurar e gerenciar instâncias de SGBDs como o MySQL, o PostgreSQL ou o Oracle Database para realizar testes de integração e validar consultas e transações.
+## 4.2 - Ferramentas de teste
+As ferramentas específicas de teste usadas no projeto podem incluir:
 
-### 4.1 - Ambiente de teste - Software e Hardware
-
-Descreva aqui o hardware e sua configuração, e o software. Por exemplo, o sistema operacional, browsers, servidor web, etc.
-### 4.2 - Ferramenta de teste
-
-Descreva aqui as ferramentas específicas de teste usadas no projeto.
-
+- Selenium WebDriver: Ferramenta de automação de teste para interagir com navegadores web. Pode ser usada para criar testes automatizados de interface do usuário, preenchendo formulários, clicando em elementos e verificando o comportamento esperado.
+- JMeter: Ferramenta de teste de carga e desempenho para medir o desempenho do software de banco digital sob diferentes cenários de carga. Permite simular usuários simultâneos, enviar solicitações HTTP, medir tempo de resposta e analisar métricas de desempenho.
+- OWASP ZAP: Ferramenta de teste de segurança que pode ser usada para realizar testes de penetração e identificar vulnerabilidades no software. Pode ajudar a garantir a segurança das informações dos usuários e evitar ataques maliciosos.
+- JUnit: Framework de testes unitários para Java. Pode ser usado para escrever e executar testes automatizados de unidade para garantir a corretude e funcionalidade das diferentes partes do código-fonte.
+- Postman: Ferramenta para testar e depurar APIs. Permite enviar solicitações HTTP para os endpoints da API do banco digital, verificar respostas, validar dados e automatizar testes de integração.
+- LoadRunner: Uma ferramenta de teste de desempenho que permite simular cargas de trabalho pesadas para avaliar o desempenho, a escalabilidade e a estabilidade do sistema.
+- JUnitPerf: Uma extensão do JUnit que fornece suporte para testes de desempenho e carga. Pode ser usado para medir o tempo de resposta e a taxa de transferência do sistema em diferentes cenários de carga.
+- SonarQube: Uma plataforma de análise estática de código que pode ajudar a identificar problemas de qualidade, como código duplicado, vulnerabilidades de segurança e violações de boas práticas de programação.
+- TestComplete: Uma ferramenta abrangente de automação de testes que suporta testes de interface do usuário, testes funcionais, testes de regressão e testes de carga.
+- Gatling: Uma ferramenta de teste de carga de código aberto baseada em Scala. É conhecida por sua escalabilidade e pode simular um grande número de usuários virtuais em um cenário de teste de desempenho.
 
 ## 5 - Cronograma
 
 Tipo de teste      | Duração | data de início | data de término
 -------------------|---------|----------------|-----------------
-planejar teste     |         | dd/mm/aaaa     | dd/mm/aaaa
-projetar teste     |         | dd/mm/aaaa     | dd/mm/aaaa
-implementar teste  |         | dd/mm/aaaa     | dd/mm/aaaa
-executar teste     |         | dd/mm/aaaa     | dd/mm/aaaa
-avaliar teste      |         | dd/mm/aaaa     | dd/mm/aaaa
+planejar teste     | 15 dias | 05/06/2023     | 21/06/2023
+projetar teste     | 15 dias | 22/06/2023     | 06/07/2023
+implementar teste  | 15 dias | 07/07/2023     | 21/07/2023
+executar teste     | 15 dias | 22/07/2023     | 06/08/2023
+avaliar teste      | 15 dias | 07/08/2023     | 22/08/2023
