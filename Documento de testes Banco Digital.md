@@ -877,7 +877,325 @@ Aqui deve-se verificar se a interface do programa é intuitiva e fácil de usar,
 </table>
 <br/>
 
+### 3.8 - Segurança
+Para teste de segurança.
+Aqui deve-se verificar se o software possui medidas adequadas de segurança para proteger informações sensíveis, como dados bancários dos usuários. Pode-se realizar testes de penetração, análise de vulnerabilidades e autenticação.
 
+<br/>
+<table>
+    <tr>
+        <th>
+            Objetivo
+        </th>
+        <th colspan="4">
+            Verificar se o software possui medidas adequadas de segurança para proteger informações sensíveis.
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Técnica:
+        </th>
+        <th colspan="2">
+            ( ) manual
+        </th>
+        <th colspan="2">
+            (x) automática
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Estágio do teste
+        </th>
+        <th>
+            Integração ( )
+        </th>
+        <th>
+            Sistema (x)
+        </th>
+        <th>
+            Unidade ( )
+        </th>
+        <th>
+            Aceitação ( )
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Abordagem do teste
+        </th>
+        <th colspan="2">
+            Caixa branca ( )
+        </th>
+        <th colspan="2">
+            Caixa preta (x)
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Responsável(is)
+        </th>
+        <th colspan="4">
+            Lincoln Martins de Oliveira
+        </th>
+    </tr>
+</table>
+<br/>
+
+### 3.9 - Desempenho
+Para teste de desempenho.
+Aqui deve-se verificar se o programa é capaz de lidar com cargas de trabalho esperadas, sem apresentar degradação significativa no desempenho. Pode-se realizar testes de carga e stress.
+
+<br/>
+<table>
+    <tr>
+        <th>
+            Objetivo
+        </th>
+        <th colspan="4">
+            Verificar se o programa é capaz de lidar com cargas de trabalho esperadas, sem degradação significativa no desempenho.
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Técnica:
+        </th>
+        <th colspan="2">
+            ( ) manual
+        </th>
+        <th colspan="2">
+            (x) automática
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Estágio do teste
+        </th>
+        <th>
+            Integração ( )
+        </th>
+        <th>
+            Sistema (x)
+        </th>
+        <th>
+            Unidade ( )
+        </th>
+        <th>
+            Aceitação ( )
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Abordagem do teste
+        </th>
+        <th colspan="2">
+            Caixa branca ( )
+        </th>
+        <th colspan="2">
+            Caixa preta (x)
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Responsável(is)
+        </th>
+        <th colspan="4">
+            Lincoln Martins de Oliveira
+        </th>
+    </tr>
+</table>
+<br/>
+
+### 3.9 - Compatibilidade
+Para teste de compatibilidade.
+Aqui deve-se verificar se o programa é compatível com diferentes sistemas operacionais, dispositivos e versões de navegadores, se aplicável. Pode-se realizar testes em diferentes ambientes e configurações para identificar problemas de compatibilidade.
+
+<br/>
+<table>
+    <tr>
+        <th>
+            Objetivo
+        </th>
+        <th colspan="4">
+            Verificar se o programa é compatível com diferentes sistemas operacionais, dispositivos e versões de navegadores, se aplicável.
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Técnica:
+        </th>
+        <th colspan="2">
+            ( ) manual
+        </th>
+        <th colspan="2">
+            (x) automática
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Estágio do teste
+        </th>
+        <th>
+            Integração ( )
+        </th>
+        <th>
+            Sistema (x)
+        </th>
+        <th>
+            Unidade ( )
+        </th>
+        <th>
+            Aceitação ( )
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Abordagem do teste
+        </th>
+        <th colspan="2">
+            Caixa branca ( )
+        </th>
+        <th colspan="2">
+            Caixa preta (x)
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Responsável(is)
+        </th>
+        <th colspan="4">
+            Lincoln Martins de Oliveira
+        </th>
+    </tr>
+</table>
+<br/>
+
+### 3.10 - Acessibilidade
+Para teste de acessibilidade.
+Aqui deve-se verificar se o software é acessível para pessoas com deficiência, seguindo diretrizes de acessibilidade, como as estabelecidas pelas WCAG (Web Content Accessibility Guidelines). Pode-se realizar testes com ferramentas de acessibilidade e com usuários com deficiência.
+
+<br/>
+<table>
+    <tr>
+        <th>
+            Objetivo
+        </th>
+        <th colspan="4">
+            Verificar se o software é acessível para pessoas com deficiência.
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Técnica:
+        </th>
+        <th colspan="2">
+            ( ) manual
+        </th>
+        <th colspan="2">
+            (x) automática
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Estágio do teste
+        </th>
+        <th>
+            Integração ( )
+        </th>
+        <th>
+            Sistema ( )
+        </th>
+        <th>
+            Unidade ( )
+        </th>
+        <th>
+            Aceitação ( )
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Abordagem do teste
+        </th>
+        <th colspan="2">
+            Caixa branca ( )
+        </th>
+        <th colspan="2">
+            Caixa preta (x)
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Responsável(is)
+        </th>
+        <th colspan="4">
+            Lincoln Martins de Oliveira
+        </th>
+    </tr>
+</table>
+<br/>
+
+### 3.11 - Desempenho
+Para teste de desempenho.
+Aqui deve-se verificar o desempenho do software em relação a tempo de resposta, escalabilidade e consumo de recursos, como memória e CPU. Pode-se realizar testes de carga, estresse e volume para avaliar o comportamento do sistema em diferentes cenários.
+
+<br/>
+<table>
+    <tr>
+        <th>
+            Objetivo
+        </th>
+        <th colspan="4">
+            Verificar o desempenho do software em relação a tempo de resposta, escalabilidade e consumo de recursos.
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Técnica:
+        </th>
+        <th colspan="2">
+            ( ) manual
+        </th>
+        <th colspan="2">
+            (x) automática
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Estágio do teste
+        </th>
+        <th>
+            Integração ( )
+        </th>
+        <th>
+            Sistema (x)
+        </th>
+        <th>
+            Unidade ( )
+        </th>
+        <th>
+            Aceitação ( )
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Abordagem do teste
+        </th>
+        <th colspan="2">
+            Caixa branca ( )
+        </th>
+        <th colspan="2">
+            Caixa preta (x)
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Responsável(is)
+        </th>
+        <th colspan="4">
+            Lincoln Martins de Oliveira
+        </th>
+    </tr>
+</table>
+<br/>
 
 ## 4 - Recursos
 
